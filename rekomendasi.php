@@ -67,10 +67,10 @@
                                                                 <select name="harga">
                                                                     <option value = "" disabled selected style="color: #eceff1;"><i>Kriteria Harga</i></option>
                                                                     <option value = "1000000">< Rp. 1.000.000</option>
-                                                                    <option value = "3000000">1.000.000 - 3.000.000</option>
-                                                                    <option value = "4000000">3.000.000 - 4.000.000</option>
-                                                                    <option value = "5000000">4.000.000 - 5.000.000</option>
-                                                                    <option value = "10000000">> 5.000.000</option>
+                                                                    <option value = "3000000">< Rp. 3.000.000</option>
+                                                                    <option value = "4000000">< Rp. 4.000.000</option>
+                                                                    <option value = "5000000">< Rp. 5.000.000</option>
+                                                                    <option value = "10000000">< RP. 10.000.000</option>
                                                                 </select>
                                                             </div>
 
