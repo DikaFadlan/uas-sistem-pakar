@@ -27,10 +27,6 @@
     
     ![](./ss/e.PNG)
     
-    ![](./ss/f.PNG)
-    
-    ![](./ss/g.PNG)
-    
 ## License
 > This program is Free Software: 
 You can use, study, share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the [GNU General Public License](https://www.gnu.org/licenses/gpl.html) 
