@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sistem Pendukung Keputusan Pemilihan Smartphone</title>
+	<title>Sistem Pakar Rekomendasi Pemilihan Smartphone</title>
 	<meta property="og:image" content="assets/image/laptop.jpg" />
 	<meta name="description" content="Leppi adalah aplikasi Sistem Pendukung Keputusan Laptop berbasis Metode Weight Product">
 	<!--Import Google Icon Font-->
@@ -52,16 +52,16 @@
 		<div id="index-banner" class="parallax-container">
 			<div class="section no-pad-bot">
 				<div class="container">
-					<h1 class="header jarak center white-text" style="font-size: 40px">SISTEM PENDUKUNG KEPUTUSAN MENGGUNAKAN METODE TOPSIS</h1>
+					<h1 class="header jarak center white-text" style="font-size: 40px">SISTEM PAKAR</h1>
 					<div class="row center">
-						<h5 class="header jarak-button col s12 light" style="margin-bottom: 0px; font-size: 26px">PEMILIHAN SMARTPHONE</h5>
+						<h5 class="header jarak-button col s12 light" style="margin-bottom: 0px; font-size: 26px">REKOMENDASI PEMILIHAN SMARTPHONE</h5>
 					</div>
 					<div class="row center" \>
-								<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn-large" style="margin-top: 40px">Pilih Rekomendasi</a>
-							</div>
+						<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn-large" style="margin-top: 40px">Pilih Rekomendasi</a>
+					</div>
 				</div>
 			</div>
-			<div class="parallax"><img src="assets/image/pixel.jpg" alt="Laptop"></div>
+			<div class="parallax"><img src="assets/image/bghp.jpg" alt="Laptop"></div>
 		</div>
 		<!-- Jumbotron End -->
 
@@ -70,42 +70,23 @@
 		<div class="container">
 		    <div class="section-card" style="padding: 36px 0px">
 		    	<div class="row">
-		    		<div class="col s6">
-			    		<center><h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: #635c73">INFO SISTEM</h5></center><br>
-			    		<p style="text-align: justify; padding-right: 16px;">Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP. Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo. </p>
+			    		<h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: black">INFO SISTEM</h5><br>
+			    		<p style="text-align: justify; padding-right: 16px; color: black">Sistem Pakar Rekomendasi Pemilihan Smartphone ini dibangun menggunakan bahasa PHP. Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pakar Prodi Teknik Informatika Sekolah Tinggi Teknologi Bandung. </p>
 						</div>
-			    	<div class="col s6">
-			    		<center><h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: #635c73">INFO METODE</h5></center><br>
-							<p style="text-align: justify; padding-left: 16px;">Metode yang digunakan adalah metode TOPSIS. Metode TOPSIS adalah salah satu metode penyelesaian pada sistem pendukung keputusan. Metode ini mengevaluasi beberapa alternatif terhadap sekumpulan atribuat atau kriteria, dimana setiap atribut saling tidak bergantung satu dengan yang lainnya.
-							</p>
-							</div>
 		    	</div>
 	    	</div>
 		</div>
 	</div>
 	<!-- Info End -->
 
-	<div id="about" class="modal">
-    <div class="modal-content">
-      <h4>Tentang</h4>
-      <p>Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
-				Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo Madura. <br>
-				<br>
-				1. Zulfi Osman<br>
-				2. Wahid Arinanto Nugroho <a href="https://wahidari.gitlab.io/"> (Gitlab)</a><br>
-			</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
-    </div>
-	</div>
+	
 	
     <!-- Body End -->
 
     <!-- Footer Start -->
-	<div class="footer-copyright" style="padding: 0px 0px">
+	<div class="footer-copyright" style="padding: 0px 0px; background-color: moccasin">
       <div class="container">
-        <p align="center" style="color: #999">&copy; Sistem Pendukung Keputusan Pemilihan Smartphone 2018.</p>
+        <p align="center" style="color: #999">&copy; Sistem Pakar Rekomendasi Pemilihan Smartphone 2023.</p>
       </div>
     </div>
     <!-- Footer End -->

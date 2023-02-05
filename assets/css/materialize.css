@@ -4394,9 +4394,9 @@ nav .input-field label.active i {
 }
 
 .navbar-fixed {
-  position: relative;
+  position: static;
   height: 56px;
-  z-index: 997;
+  width: 100%;
 }
 
 /* .navbar-fixed nav {
@@ -4413,6 +4413,8 @@ nav .input-field label.active i {
   }
   .navbar-fixed {
     height: 64px;
+    width: 100%;
+    position: absolute;
   }
 }
 

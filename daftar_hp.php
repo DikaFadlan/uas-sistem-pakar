@@ -107,7 +107,7 @@ include('koneksi.php');
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sistem Pendukung Keputusan Pemilihan Smartphone</title>
+	<title>Sistem Pakar Rekomendasi Pemilihan Smartphone</title>
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
@@ -150,7 +150,7 @@ include('koneksi.php');
 		<!-- Body Start -->
 
 		<!-- Daftar hp Start -->
-	<div style="background-color: #efefef">
+	<div style="background-color: moccasin">
 		<div class="container">
 		    <div class="section-card" style="padding: 40px 0px 20px 0px;">
 				<ul>
@@ -213,54 +213,7 @@ include('koneksi.php');
 	<!-- Daftar hp End -->
 
 	<!-- Daftar hp Start -->
-	<div style="background-color: #efefef">
-		<div class="container">
-		    <div class="section-card" style="padding: 1px 20% 24px 20%;">
-				<ul>
-				    <li>
-						<div class="row">
-							<div class="card">
-								<div class="card-content" style="padding-top: 10px;">
-									<center><h5 style="margin-bottom: 10px;">Analisa Smartphone</h5></center>
-									<table class="responsive-table">
-									
-											<thead style="border-top: 1px solid #d0d0d0;">
-												<tr>
-													<th><center>Alternatif</center></th>
-													<th><center>C1 (Cost)</center></th>
-													<th><center>C2 (Benefit)</center></th>
-													<th><center>C3 (Benefit)</center></th>
-													<th><center>C4 (Benefit)</center></th>
-													<th><center>C5 (Benefit)</center></th>
-												</tr>
-											</thead>
-											<tbody>
-												<?php
-												$query=mysqli_query($selectdb,"SELECT * FROM data_hp");
-												$no=1;
-												while ($data=mysqli_fetch_array($query)) {
-												?>
-												<tr>
-													<td><center><?php echo "A",$no ?></center></td>
-													<td><center><?php echo $data['harga_angka'] ?></center></td>
-													<td><center><?php echo $data['ram_angka'] ?></center></td>
-													<td><center><?php echo $data['memori_angka'] ?></center></td>
-													<td><center><?php echo $data['processor_angka'] ?></center></td>
-													<td><center><?php echo $data['kamera_angka'] ?></center></td>
-												</tr>
-												<?php
-														$no++;}
-												?>
-											</tbody>
-									</table>
-									</div>
-							</div>
-						</div>
-				    </li>
-				</ul>	     
-	    	</div>
-		</div>
-	</div>
+	
 	<!-- Daftar hp End -->
 
 	<!-- Modal Start -->
@@ -358,28 +311,15 @@ include('koneksi.php');
 	<!-- Modal End -->
 
 	<!-- Modal Start -->
-	<div id="about" class="modal">
-		<div class="modal-content">
-			<h4>Tentang</h4>
-			<p>Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
-			Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo Madura. <br>
-			<br>
-			1. Zulfi Osman<br>
-			2. Wahid Arinanto Nugroho <a href="https://wahidari.gitlab.io/"> (Gitlab)</a><br>
-		</p>
-		</div>
-		<div class="modal-footer">
-			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
-		</div>
-	</div>
+	
 	<!-- Modal End -->
 
     <!-- Body End -->
 
     <!-- Footer Start -->
-	<div class="footer-copyright" style="padding: 0px 0px; background-color: white">
+	<div class="footer-copyright" style="padding: 0px 0px; background-color: moccasin">
       <div class="container">
-        <p align="center" style="color: #999">&copy; Sistem Pendukung Keputusan Pemilihan Smartphone 2018.</p>
+        <p align="center" style="color: #999">&copy; Sistem Pakar Rekomendasi Pemilihan Smartphone 2023.</p>
       </div>
     </div>
     <!-- Footer End -->

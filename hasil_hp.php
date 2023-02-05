@@ -80,7 +80,7 @@ else
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sistem Pendukung Keputusan Pemilihan Smartphone</title>
+	<title>Sistem Pakar Rekomendasi Pemilihan Smartphone</title>
 	<meta property="og:image" content="assets/image/laptop.jpg" />
 	<meta name="description" content="Leppi adalah aplikasi Sistem Pendukung Keputusan Laptop berbasis Metode Weight Product">
 	<!--Import Google Icon Font-->
@@ -126,7 +126,7 @@ else
 		</nav>
 		</div>
     <!-- Body Start -->
-    <div style="background-color: #efefef">
+    <div style="background-color: moccasin">
 		<div class="container">
 		    <div class="section-card" style="padding: 40px 0px 20px 0px;">
 				<ul>
@@ -173,7 +173,7 @@ else
 									</div>
 									
 							</div>
-							<a href="#tambah" class="btn-floating btn-large waves-effect waves-light teal btn-float-custom"><i class="material-icons">add</i></a>
+							<a href="rekomendasi.php" id="download-button" class="waves-effect waves-light btn-large" style="margin-top: 40px">Pilih Rekomendasi Ulang</a>
 						</div>
 				    </li>
 				</ul>	     

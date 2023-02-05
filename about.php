@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sistem Pendukung Keputusan Pemilihan Smartphone</title>
+	<title>Sistem Pakar Rekomendasi Pemilihan Smartphone</title>
 	<meta property="og:image" content="assets/image/laptop.jpg" />
 	<meta name="description" content="Leppi adalah aplikasi Sistem Pendukung Keputusan Laptop berbasis Metode Weight Product">
 	<!--Import Google Icon Font-->
@@ -30,7 +30,7 @@
 	});
 	</script>
 </head>
-<body>
+<body style="background-color: moccasin">
 	<div class="navbar-fixed">
 	<nav>
     	<div class="container">
@@ -46,9 +46,9 @@
         </div>
 		</nav>
 		</div>
-        <div class="modal-content">
+	<div class="modal-content">
       <h4>Tentang</h4>
-      <p>Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
+      <p>Sistem Pendukung Keputusan Rekomendasi Pemilihan Smartphone ini dibangun menggunakan bahasa PHP.
 				Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pakar Prodi Teknik Informatika Sekolah Tinggi Teknologi Bandung <br>
 				<br>
 				1. Ade Candra Oktaviandi<br>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sistem Pendukung Keputusan Pemilihan Smartphone</title>
+    <title>Sistem Pakar Rekomendasi Pemilihan Smartphone</title>
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
@@ -21,7 +21,7 @@
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-<body>
+<body style="background-color: moccasin">
 	<div class="navbar-fixed">
 	<nav>
     	<div class="container">
@@ -37,12 +37,12 @@
 						</div>
 					
         </div>
-		</nav>
-		</div>
+    </nav>
+    </div>
 		<!-- Body Start -->
 
 		<!-- Daftar Laptop Start -->
-        <div style="background-color: #efefef">
+        <div style="background-color: moccasin">
             <div class="container">
                 <div class="section-card" style="padding: 32px 0px 20px 0px">
                     <ul>
@@ -147,20 +147,7 @@
         <!-- Rekomendasi Laptop End -->
 
     <!-- Modal Start -->
-	<div id="about" class="modal">
-        <div class="modal-content">
-          <h4>Tentang</h4>
-          <p>Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
-				Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo Madura. <br>
-				<br>
-				1. Zulfi Osman<br>
-				2. Wahid Arinanto Nugroho <a href="https://wahidari.gitlab.io/"> (Gitlab)</a><br>
-			</p>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Tutup</a>
-        </div>
-    </div>
+	
     <!-- Modal End -->
 
     <!-- Body End -->
@@ -168,7 +155,7 @@
     <!-- Footer Start -->
 	<div class="footer-copyright" style="padding: 0px 0px; background-color: white">
       <div class="container">
-        <p align="center" style="color: #999">&copy; Sistem Pendukung Keputusan Pemilihan Smartphone 2018.</p>
+        <p align="center" style="color: #999">&copy; Sistem Pakar Rekomendasi Pemilihan Smartphone 2023.</p>
       </div>
     </div>
     <!-- Footer End -->
